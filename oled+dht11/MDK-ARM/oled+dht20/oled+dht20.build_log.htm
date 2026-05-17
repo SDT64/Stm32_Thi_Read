@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tony tom, LENOV, LIC=8MZI6-DMN9S-17RRR-KBE3X-I6FJ5-6VQTK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.41.0.0
+Toolchain Path:  G:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.21.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+G:\document\code\oled+dht11\MDK-ARM\oled+dht20.uvprojx
+Project File Date:  09/12/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'G:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'oled+dht20'
+compiling main.c...
+../Core/Inc/oled.h(13): warning:  #1295-D: Deprecated declaration OLED_Init - give arg types
+  void OLED_Init();
+../Core/Inc/oled.h(14): warning:  #1295-D: Deprecated declaration OLED_DisPlay_On - give arg types
+  void OLED_DisPlay_On();
+../Core/Inc/oled.h(15): warning:  #1295-D: Deprecated declaration OLED_DisPlay_Off - give arg types
+  void OLED_DisPlay_Off();
+../Core/Inc/oled.h(17): warning:  #1295-D: Deprecated declaration OLED_NewFrame - give arg types
+  void OLED_NewFrame();
+../Core/Inc/oled.h(18): warning:  #1295-D: Deprecated declaration OLED_ShowFrame - give arg types
+  void OLED_ShowFrame();
+../Core/Inc/oled.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif // __OLED_H__
+../Core/Inc/dht11.h(34): warning:  #1-D: last line of file ends without a newline
+  #endif /* __DHT11_H__ */
+../Core/Src/main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=13674 RO-data=2450 RW-data=28 ZI-data=3100  
+FromELF: creating hex file...
+"oled+dht20\oled+dht20.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_oled_dht20
+  G:/Keil_v5/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  G:/Keil_v5/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
